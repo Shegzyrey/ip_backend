@@ -30,8 +30,8 @@ public class IpLog {
 
     public Integer getId() { return id; }
     public void setId(Integer id) { this.id = id; }
-    public String getIpAddress() { return ipAddress; }
-    public void setIpAddress(String ipAddress) { this.ipAddress = ipAddress; }
+//    public String getIpAddress() { return ipAddress; }
+//    public void setIpAddress(String ipAddress) { this.ipAddress = ipAddress; }
     public long getTimestamp() { return timestamp; }
-    public void setTimestamp(long timestamp) { this.timestamp = timestamp; }
+//    public void setTimestamp(long timestamp) { this.timestamp = timestamp; }
 }

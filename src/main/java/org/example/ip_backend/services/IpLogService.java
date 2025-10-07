@@ -35,18 +35,18 @@ public class IpLogService {
         private long totalHits;
         private long lastAccessEpochSeconds;
 
-        public StatsResponse() {}
+//        public StatsResponse() {}
         public StatsResponse(long totalUniqueIps, long totalHits, long lastAccessEpochSeconds) {
             this.totalUniqueIps = totalUniqueIps;
             this.totalHits = totalHits;
             this.lastAccessEpochSeconds = lastAccessEpochSeconds;
         }
 
-        public long getTotalUniqueIps() { return totalUniqueIps; }
-        public long getTotalHits() { return totalHits; }
-        public long getLastAccessEpochSeconds() { return lastAccessEpochSeconds; }
-        public void setTotalUniqueIps(long v) { this.totalUniqueIps = v; }
-        public void setTotalHits(long v) { this.totalHits = v; }
-        public void setLastAccessEpochSeconds(long v) { this.lastAccessEpochSeconds = v; }
+//        public long getTotalUniqueIps() { return totalUniqueIps; }
+//        public long getTotalHits() { return totalHits; }
+//        public long getLastAccessEpochSeconds() { return lastAccessEpochSeconds; }
+//        public void setTotalUniqueIps(long v) { this.totalUniqueIps = v; }
+//        public void setTotalHits(long v) { this.totalHits = v; }
+//        public void setLastAccessEpochSeconds(long v) { this.lastAccessEpochSeconds = v; }
     }
 }
